@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50,50,0.22);
+    padding: 20px;
+    margin: 10px;
+    width: 275px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.orange{
+    border-left: 3px solid #da9310;
+}
+
+div.box-one{
+    text-align: center;
+    margin-top: 40px;
+}
+
+div.box-two{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-primary{
+    margin: 0;
+    color: white;
+    background: orange;
+}
+
+.btn-secondary{
+    display: inline-block;
+    color: white;
+    background: orange;
+}
